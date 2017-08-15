@@ -13,7 +13,7 @@ INSERT INTO todo (title, details, priority, created_at) VALUES ('Complete daily'
 INSERT 0 1
 INSERT INTO todo (title, details, priority, created_at) VALUES ('Dinner', 'Decide where to grab dinner quickly', 1, clock_timestamp());
 INSERT 0 1
-INSERT INTO todo (title, details, priority, created_at) VALUES ('Bed', 'Get to sleep at a decent time to make sure I'm ready for catch-up day tomorrow', 1, clock_timestamp());
+INSERT INTO todo (title, details, priority, created_at) VALUES ('Bed', 'Get to sleep at a decent time to make sure Im ready for catch-up day tomorrow', 1, clock_timestamp());
 
 SELECT * FROM todo WHERE priority >= 1;
 UPDATE todo SET completed_at = TO_TIMESTAMP('2017-08-09 12-00-00', 'YYYY-MM-DD HH24:MI:SS') WHERE id = 3;
